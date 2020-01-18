@@ -121,7 +121,7 @@ Grades will be based on rounded scores.
 - Using `itertools`
 - Pipelines with `toolz`
 
-### Midterm 1
+### Midterm 1 (31 Jan 2020 08:15 - 09:45)
 
 ### Module 2: Explain how common statistical algorithms work
 
