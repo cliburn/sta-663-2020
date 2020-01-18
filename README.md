@@ -28,8 +28,8 @@ Note: The syllabus is aspirational and is likely to be adjusted over the semeste
 ### Office hours 
 
 - Cliburn: Thursday 4-5 PM at 11078 Hock Suite 1102
-- Zixi Wang:
-- Chudi Zhong: 
+- Zixi Wang:  2-4 pm Thursday at 203B Old Chemistry
+- Chudi Zhong: 9:30-11:30am Tuesday at 203B Old Chemistry
 
 ### Grading
 
