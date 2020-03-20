@@ -203,92 +203,17 @@ Grades will be based on rounded scores.
 
 ### Midterm 2
 
-### Module 3: Construct models using probabilistic programming
+### Revised Schedule
 
-#### 15. Probability and random processes
+Mon 4:40 - 5:55 PM EST Zoom: https://zoom.us/j/900920288
+Wed 4:40 - 5:55 PM EST Zoom: https://zoom.us/j/395651734 
 
-- Working with probability distributions
-- Using `random`
-- Using `np.random`
-- Using `scipy.statistics`
-- Simulations
+## Module 3: Making code faster
 
-#### 16. Monte Carlo methods
+#### Mar 23 Parallel programming
 
-- Sampling from data
-- Bootstrap
-- Permutation resampling
-- Sampling from distributions
-- Rejection sampling
-- Importance sampling
-- Monte Carlo integration
-- Density estimation
-
-#### 17. Gibbs and MH
-
-- Bayes theorem and integration
-- Numerical integration (quadrature)
-- MCMC concepts
-- Makrov chains
-- Metropolis-Hastings random walk
-- Gibbs sampler
-
-#### 18. Hamiltonian Monte Carlo
-
-- Hamiltonian systems
-- Integration of Hamiltonian system dynamics
-- Energy and probability distributions
-- HMC
-- NUTS
-
-#### 19. Probabilistic programming
-
-- Domain-specific languages
-- Multi-level Bayesian models
-- Using daft to draw plate diagrams
-- Using `pymc3`
-- Using `pystan`
-
-##### 20. Using TesnorFlow probability (Tfp)
-
-- TensorFlow basics
-- Distributions and transformations
-- Building probabilistic models with `Tfp`
-
-#### 21. Probabilistic deep learning
-
-- Loss functions and likelihood
-- Optimization for deep learning
-- Back-propagation
-- Bayes by back-propagation
-- Deep generative models
-
-### Module 4: Implement, optimize, and package a statistical algorithm
-
-#### 22. Python modules
-
-- Organization of a module
-- Writing the setup script
-- The Python Package Index
-- Package managers
-
-#### 23. Containers
-
-- Code optimization I
-
-- Vectorization
-- JIT compilation with `numba`
-- AOT compilation with `cython`
-
-#### 24. Code optimization II
-
-- Interpreters and compilers
-- Review of C++
-- Wrapping C++ functions with `pybind11`
-
-#### 25. Parallel programming
-
-- Parallel, concurrent, asynchronous, distributed
+- Parallel, concurrent, distributed
+- Synchronous and asynchronous calls
 - Threads and processes
 - Shared memory programming pitfalls: deadlock and race conditions
 - Embarrassingly parallel programs with `concurrent.futures` and `multiprocessing`
@@ -296,4 +221,82 @@ Grades will be based on rounded scores.
 - Master-worker
 - Using `ipyparallel` for interactive parallelization
 
-### Final Project 
+#### Mar 25 JIT and AOT code optimization
+
+- Source code, machine code, runtime
+- Interpreted vs compiled code
+- Static vs dynamic typing
+- The costs of dynamic typing
+- Vectorization in interpreted languages
+- JIT compilation with `numba`
+- AOT compilation with `cython`
+
+#### Mar 27 Midterm 2
+
+#### Mar 30 Introduction to modern C++
+
+- Hello world
+- Headers and source files
+- Compiling and executing a C++ program
+- Using `make`
+- Basic types and type declaration
+- Loops and conditional execution
+- I/O
+- Functions
+- Template functions
+- Anonymous functions
+
+#### Apr 01 Wrapping C++ for use in Python
+
+- Using STL containers
+- Using STL algorithms
+- Numeric libraries for C++
+- Hello world with `pybind11`
+- Wrapping a function with `pybind11`
+- Integration with `eigen`
+
+#### Apr 03 Lab
+
+### Module 4: Probabilistic Programming
+
+#### Apr 06 Random numbers and Monte Carlo methods
+
+- Working with probability distributions
+- Where do random numbers in the computer come from?
+- Sampling form data
+- Bootstrap
+- Permutation
+- Leave-one-out
+- Likelihood and MLE
+- Using `random`,  `np.random` and  `scipy.statistics`
+
+#### Apr 08 Review of Markov Chain Monte Carlo (MCMC)
+
+- Bayes theorem and integration
+- Numerical integration (quadrature)
+- MCMC concepts
+- Makrov chains
+- Metropolis-Hastings random walk
+- Gibbs sampler
+- Hamiltonian systems
+- Integration of Hamiltonian system dynamics
+- Energy and probability distributions
+- HMC
+- NUTS
+
+#### Apr 10 Lab
+
+#### Apr 13 PyMC and PyStan
+
+- Multi-level Bayesian models
+- Using daft to draw plate diagrams
+- Using `pymc3`
+- Using `pystan`
+
+#### Apr 15 TensorFlow Probability
+
+- TensorFlow basics
+- Distributions and transformations
+- Building probabilistic models with `Tfp`
+- Basic concepts of deep learning
+- Probabilistic deep learning
