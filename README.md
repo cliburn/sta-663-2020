@@ -217,8 +217,6 @@ Wed 4:40 - 5:55 PM EST Zoom: https://zoom.us/j/395651734
 - Threads and processes
 - Shared memory programming pitfalls: deadlock and race conditions
 - Embarrassingly parallel programs with `concurrent.futures` and `multiprocessing`
-- Map-reduce
-- Master-worker
 - Using `ipyparallel` for interactive parallelization
 
 #### Mar 25 JIT and AOT code optimization
