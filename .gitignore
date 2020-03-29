@@ -1,6 +1,12 @@
 .DS_Store
 foo.py
 
+*.cpp
+*.o
+*.exe
+*.out
+hello*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
